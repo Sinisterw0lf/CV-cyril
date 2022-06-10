@@ -1,0 +1,155 @@
+/* helpers */
+main {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 25px;
+  text-transform: uppercase;
+  padding-top: 2%;
+  padding-bottom: 3%;
+}
+
+h3 {
+  font-size: 23px;
+  text-transform: uppercase;
+  padding: 1% 0;
+}
+
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 2%;
+}
+
+p {
+  font-size: 16px;
+}
+
+.fa-solid {
+  color: #c3cfdb;
+}
+/* left */
+.left {
+
+  width: 40vw;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jenny {
+  width: 60%;
+  border-radius: 100%;
+  padding-bottom: 4%;
+}
+
+.phone {
+  display: flex;
+}
+
+.phone p {
+  padding-left: 5%;
+}
+
+.mail {
+  display: flex;
+}
+
+.mail p {
+  padding-left: 5%;
+}
+
+.address {
+  display: flex;
+}
+
+.address p {
+  padding-left: 28.2656px;
+}
+
+progress {
+  -webkit-appearance: none;
+}
+
+::-webkit-progress-bar {
+  border-radius: 6px;
+  background-color: white;
+}
+
+::-webkit-progress-value {
+  border-radius: 6px;
+  background-color: #dae6f2;
+}
+
+.level1 {
+  display: flex;
+  gap: 5%;
+}
+
+.level2 {
+  display: flex;
+  gap: 6.5%;
+}
+
+.level3 {
+  display: flex;
+  gap: 8.5%;
+}
+
+.manette{
+    width: 33%;
+}
+
+.cinema{
+    width: 40%;
+}
+
+.line1 {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 5%;
+}
+
+.line2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* right */
+.right {
+  width: 70vw;
+  background-color: #dae6f2;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 20%;
+}
+
+.right h3 {
+  background-color: white;
+  padding: 2% 25% 2% 5%;
+  color: rgb(26, 26, 104);
+}
+
+.two-p {
+  display: flex;
+}
+
+.p-bold {
+  font-weight: bold;
+}
+
+.p-gray {
+  opacity: 50%;
+}
