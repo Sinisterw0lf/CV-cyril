@@ -32,12 +32,12 @@ p {
   font-size: 16px;
 }
 
-.fa-solid {
+.fa-solid ,.fa-brands {
   color: #c3cfdb;
 }
+
 /* left */
 .left {
-
   width: 40vw;
   padding-left: 2%;
   padding-right: 2%;
@@ -76,7 +76,15 @@ p {
 }
 
 .address p {
-  padding-left: 28.2656px;
+  padding-left: 24.2656px;
+}
+
+.linkedin{
+  display: flex;
+}
+.linkedin a {
+  padding-left: 5%;
+  text-decoration: none;
 }
 
 progress {
@@ -95,36 +103,49 @@ progress {
 
 .level1 {
   display: flex;
-  gap: 5%;
+  gap: 17.5%;
 }
 
 .level2 {
   display: flex;
-  gap: 6.5%;
+  gap:20%;
 }
 
 .level3 {
   display: flex;
-  gap: 8.5%;
+  gap: 6%;
 }
 
-.manette{
-    width: 33%;
+.level4 {
+  display: flex;
+  gap: 21%;
 }
 
-.cinema{
-    width: 40%;
+.manette {
+  width: 100%;
+}
+
+.cinema {
+  width: 100%;
+}
+
+.two-line img {
+  width: 25%;
+  margin-left: 33%;
 }
 
 .line1 {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding-bottom: 5%;
+  width: 40%;
 }
 
 .line2 {
   display: flex;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
 }
 
 /* right */
