@@ -29,10 +29,11 @@ h4 {
 }
 
 p {
-  font-size: 16px;
+  font-size: 15px;
 }
 
-.fa-solid ,.fa-brands {
+.fa-solid,
+.fa-brands {
   color: #c3cfdb;
 }
 
@@ -54,6 +55,7 @@ p {
   border-radius: 100%;
   padding-bottom: 4%;
 }
+/* contact */
 
 .phone {
   display: flex;
@@ -79,13 +81,17 @@ p {
   padding-left: 24.2656px;
 }
 
-.linkedin{
+.linkedin {
   display: flex;
+  justify-content: center;
 }
 .linkedin a {
-  padding-left: 5%;
+  /* padding-left: 6%;
+  padding-bottom: 3%; */
   text-decoration: none;
 }
+
+/* langages */
 
 progress {
   -webkit-appearance: none;
@@ -108,7 +114,7 @@ progress {
 
 .level2 {
   display: flex;
-  gap:20%;
+  gap: 20%;
 }
 
 .level3 {
@@ -120,6 +126,8 @@ progress {
   display: flex;
   gap: 21%;
 }
+
+/* centres d'intérêt */
 
 .manette {
   width: 100%;
